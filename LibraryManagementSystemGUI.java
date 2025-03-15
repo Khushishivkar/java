@@ -6,7 +6,7 @@ public class LibraryManagementSystemGUI {
     private JTextArea displayArea;
     private JTextField titleField, authorField;
 
-    // Updated database credentials
+    
     private static final String URL = "jdbc:mysql://sql12.freesqldatabase.com:3306/sql12767804";
     private static final String USER = "sql12767804";
     private static final String PASSWORD = "4Dyrk5r4bt";
@@ -70,7 +70,7 @@ public class LibraryManagementSystemGUI {
         frame.add(displayArea, BorderLayout.EAST);
         displayArea.setPreferredSize(new Dimension(500, 500));
 
-        // Button Listeners
+      
         addButton.addActionListener(e -> addBook());
         removeButton.addActionListener(e -> removeBook());
         borrowButton.addActionListener(e -> borrowBook());
