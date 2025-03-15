@@ -1,0 +1,8 @@
+https://www.phpmyadmin.co/
+
+
+Host: sql12.freesqldatabase.com
+Database name: sql12767804
+Database user: sql12767804
+Database password: 4Dyrk5r4bt
+Port number: 3306
